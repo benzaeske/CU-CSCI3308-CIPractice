@@ -1,1 +1,4 @@
 language: c
+sudo: enable
+install: dep
+script: make test
